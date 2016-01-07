@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="55dp"
+        android:paddingTop="10dp"
+        android:visibility="visible"
+        android:text="dgdgfghfgh"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="60dp"
+        android:background="@color/grey_200" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="Edit"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+          android:textColor="#000"
+        android:layout_height="wrap_content"
+          android:visibility="invisible"
+        android:layout_alignLeft="@+id/view1"
+        android:layout_alignParentTop="true"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignLeft="@+id/view1"
+        android:layout_marginBottom="5dp"
+          android:textColor="#000"
+          android:visibility="invisible"
+        android:text="8387906743" />
+
+</RelativeLayout>

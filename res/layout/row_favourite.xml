@@ -1,0 +1,64 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:elevation="2dp"
+    
+    android:background="#FEFEFE"
+    android:layout_margin="8dp"
+    cardview:cardCornerRadius="4dp"
+    >
+
+    <RelativeLayout
+     
+        android:layout_width="match_parent"
+   
+   
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/favourites" />
+
+        <TextView
+            android:id="@+id/fromAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          
+            android:layout_toRightOf="@+id/thumbnail"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="8dp"
+            android:text="dafdafda"
+            android:textColor="#222"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fromAddress"
+            android:layout_below="@+id/fromAddress"
+            android:paddingLeft="8dp"
+            android:text="Fri 20, nov"
+            android:textColor="#222" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+<View android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+</LinearLayout>

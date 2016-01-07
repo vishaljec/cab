@@ -1,0 +1,44 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="verticalMargin">10dp</dimen>
+    <dimen name="horiZontalMargin">20dp</dimen>
+
+    <!-- Text view -->
+    <dimen name="text_view">15sp</dimen>
+    <!-- Buton -->
+    <dimen name="button">15sp</dimen>
+    <dimen name="text_width">50dp</dimen>
+    <dimen name="text_height">50dp</dimen>
+
+    <!-- add visit screen -->
+    <dimen name="horiMarginVisitScreen">30dp</dimen>
+
+    <!-- size -->
+    <dimen name="size1">1dp</dimen>
+    <dimen name="size2">2dp</dimen>
+    <dimen name="size3">3dp</dimen>
+    <dimen name="size5">5dp</dimen>
+    <dimen name="size8">8dp</dimen>
+    <dimen name="size10">10dp</dimen>
+    <dimen name="size12">12dp</dimen>
+    <dimen name="size15">15dp</dimen>
+    <dimen name="size18">18dp</dimen>
+    <dimen name="size20">20dp</dimen>
+    <dimen name="size25">25dp</dimen>
+    <dimen name="size30">30dp</dimen>
+    <dimen name="size35">35dp</dimen>
+    <dimen name="size40">40dp</dimen>
+    <dimen name="size45">45dp</dimen>
+    <dimen name="size50">50dp</dimen>
+    <dimen name="size55">55dp</dimen>
+    <dimen name="size60">60dp</dimen>
+  
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+    
+</resources>
+

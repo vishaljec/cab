@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HCS</string>
+    <string name="search_hint">Search location</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_pass">Enter Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_mobile_number">Enter 10 digit Mobile Number</string>
+    <string name="hint_re_pass">Re enter Password</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_home">Home</string>
+    <string name="hint_city">Enter a city</string>
+    <string name="hint_departure_date">Enter Departure Date</string>
+    <string name="hint_return_date">Enter Return Date</string>
+    <string name="hint_cab_type">Select cab type</string>
+    <!-- registration validation error message -->
+    <string name="error_email">Email cannot be blank</string>
+    <string name="error_email_valid">Enter valid email</string>
+    <string name="error_pass">Pasword cannot be blank</string>
+    <string name="error_re_pass">Confirm password does not match</string>
+    <string name="error_confirm_password">Confirm password cannot be blank</string>
+    <string name="error_full_name">Full name cannot be blank</string>
+    <string name="error_phone_number">Mobile number cannot be blank</string>
+    <string name="str_atv_places">Enter Place Here</string>
+    <string name="error_city">Please select a city</string>
+    <string name="error_dep_date">Please select departure  date</string>
+    <string name="error_ret_date">Please select return  date</string>
+    <string name="error_cab_type">Please select cab type</string>
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_payment</item>
+        <item>@string/nav_item_rate_card</item>
+        <item>@string/nav_about_us</item>
+        <item>@string/nav_ride_history</item>
+        <item>@string/nav_item_event_booking</item>
+        <item>@string/nav_item_emergency_contact</item>
+    </string-array>
+
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+    <string name="title_messages">Messages</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_rate_card">Rate Card</string>
+    <string name="nav_item_emergency_contact">Emergency Contact</string>
+    <string name="nav_item_event_booking">Event Booking</string>
+    <string name="nav_item_payment">Payment</string>
+    <string name="nav_ride_history">Ride History</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="title_messages_rate_card">Rate Card</string>
+    <string name="title_messages_payment">Payment</string>
+    <string name="title_messages_about_us">About Us</string>
+    <string name="title_messages_ride_histoy">Ride History</string>
+    <string name="title_messages_Event_Booking">Event Booking</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_changepassword">Changepassword</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_ride_estimation">RideEstimation</string>
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="title_activity_coupon">Coupon</string>
+
+</resources>
